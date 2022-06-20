@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "DebouncedOnChange",
-    platforms: [.iOS(.v14), .macOS(.v11)],
+    platforms: [.iOS(.v14), .macOS(.v11), .watchOS(.v8)],
     products: [
         .library(
             name: "DebouncedOnChange",
